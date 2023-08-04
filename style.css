@@ -1,0 +1,53 @@
+
+.maincontainer {
+    height: 100vh;
+    width: 100%;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left {
+    width: 35%;
+    height: 70%;
+    background-color: #0065c3;
+}
+p {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    background-color: blue;
+    top: -50px;    
+    margin-top: -2px;
+    height: 22px;
+}
+.secondcontainer{
+    margin: 10% 0%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.right {
+    width: 65%;
+    height: 70%;
+    background-color: #0065c3;;
+    background-image: url(image3.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.thirdimage img{
+    height: 35%;
+    width: 50%;
+}
+.thirdimage {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    flex-direction: end;
+    position: relative;
+    bottom: -490px;
+
+}
